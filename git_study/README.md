@@ -89,11 +89,28 @@ git pull 【获取远端最新的代码】
 
 git rebase 【把所有分支提交合成一条线】
 
-git tag 标签名 【给该分支最新一次的提交打个标签】
+git tag <tagname> 【给该分支最新一次的提交打个标签】
 
 git tag 【查看标签列表】
 
-git tag 标签名 版本号 【给某次提交打个标签】
+git tag <tagname> 版本号 【给某次提交打个标签】
+
+git show 标签号 【查看commit详情】
+
+git tag -a <tagname> -m "version 0.1 released" 1094adb  【标签可以备注】
+
+git tag -d <tagname> 【删除某个标签名】
+
+git push origin <tagname> 【将某个标签推送到远端】
+
+git push origin --tags 【将所有标签推送到远端】
+
+git push origin :refs/tags/<tagname> 【删除远端的某个标签】
+
+
+<font color='red'>Fork别人项目到自己的github 然后从自己的账号克隆到本地修改 修改完有推送到自己的远端仓库 推送一个pull request 作者是否接受 看心情</font>
+
+
 
 ## cmd命令
 
