@@ -67,8 +67,33 @@ git branch -d 分支名 【删除某个分支】
 
 git log --graph 【查看版本库线路图】
 
+git merge --no-ff -m '注释' 分支号 【非快速合并会生成一个commit记录】
+
 git stash 【本次工作区写的内容不想加入暂存区想切换分支去干其他事，可以把新加入工作区的内容储存隐藏起来】
 
+git stash list 【查看隐藏存储的节点】
+
+git stash apply 【恢复隐藏存储，但不删除节点】
+
+git stash drop 【删除隐藏存储节点】
+
+git stash pop 【恢复隐藏存储并删除节点】
+
+git stash apply stash@{0} 【恢复某个节点暂存隐藏】
+
+git branch -D 分支号 【某个分支未合并删除会不让删除可以大写D强行删除】
+
+git remote -v 【查看fetch和push的远端分支】
+
+git pull 【获取远端最新的代码】
+
+git rebase 【把所有分支提交合成一条线】
+
+git tag 标签名 【给该分支最新一次的提交打个标签】
+
+git tag 【查看标签列表】
+
+git tag 标签名 版本号 【给某次提交打个标签】
 
 ## cmd命令
 
