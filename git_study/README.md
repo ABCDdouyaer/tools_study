@@ -65,7 +65,7 @@ git checkout 分支名 【切换到某个分支】
 
 git branch -d 分支名 【删除某个分支】
 
-
+git log --graph 【查看版本库线路图】
 
 
 
