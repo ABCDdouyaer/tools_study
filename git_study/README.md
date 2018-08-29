@@ -69,6 +69,9 @@ git log --graph 【查看版本库线路图】
 
 git stash list 【查看存储的节点】
 
+git merge --no-ff -m '注释' 分支号 【非快速合并会生成一个commit记录】
+
+
 
 
 ## cmd命令
