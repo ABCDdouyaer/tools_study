@@ -1,4 +1,6 @@
-##本地
+
+
+## 本地
 
 git init 【初始化版本库】
 
@@ -26,27 +28,32 @@ git reflog 【每次操作记录日志】
 
 目录下新建.gitignore文件可以让版本库忽略某些文件或文件夹
 
-cat 文件名 【查看某个文件内容】
+* cat 文件名 【查看某个文件内容】
 
 git checkout -- 文件名 【把该文件刚才改过的内容撤销】注意：该内容还没有被提交到暂存区
 
 git reset HEAD 文件名 【将添加到暂存区的文件回退到工作区】
 
-rm 文件名 【删除工作区域的某个文件】
+* rm 文件名 【删除工作区域的某个文件】
 
 git checkout -- 文件名 【工作区域删除的文件通过版本库恢复】
 
 git rm 文件名 【直接删除版本库中的某个文件】 再commit 就直接删除了
 
 
-##远端
+
+
+## 远端
 
 git remote add origin 远端url 【本地添加远端仓库】
 
 git push origin 分支名 【本地推送到远端】
 
+git clone 远端url 【克隆一个远端的仓库到本地】
 
+* ls 当前文件夹下文件
 
+git checkout -b dev_1 【创建dev_1分支并切换到该分支】
 
 
 
