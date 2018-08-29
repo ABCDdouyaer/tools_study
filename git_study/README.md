@@ -67,6 +67,7 @@ git branch -d 分支名 【删除某个分支】
 
 git log --graph 【查看版本库线路图】
 
+git stash list 【查看存储的节点】
 
 
 
