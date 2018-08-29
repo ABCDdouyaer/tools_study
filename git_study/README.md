@@ -61,6 +61,9 @@ git branch 分支名 【创建一个新的分支】
 
 git merge 分支名 【把某个分支合并到当前分支】
 
+git checkout 分支名 【切换到某个分支】
+
+git branch -d 分支名 【删除某个分支】
 
 
 
