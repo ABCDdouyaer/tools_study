@@ -40,8 +40,11 @@ git checkout -- 文件名 【工作区域删除的文件通过版本库恢复】
 
 git rm 文件名 【直接删除版本库中的某个文件】 再commit 就直接删除了
 
+git add -f 文件名 【强制添加被git忽略的文件】
 
+git check-ignore -v 文件名 【检查git为何不添加该文件】
 
+git config --global alias.st status 【配置别名】
 
 ## 远端
 
