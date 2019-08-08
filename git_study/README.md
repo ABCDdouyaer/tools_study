@@ -110,6 +110,7 @@ git push origin --tags 【将所有标签推送到远端】
 
 git push origin :refs/tags/<tagname> 【删除远端的某个标签】
 
+git log --all --oneline -- pc/src/user/client/page/p2pRecord/p2pRecord.tpl 查找某个删除文件对应的commit信息
 
 #### Fork别人项目到自己的github 然后从自己的账号克隆到本地修改 修改完有推送到自己的远端仓库 推送一个pull request 作者是否接受 看心情
 
